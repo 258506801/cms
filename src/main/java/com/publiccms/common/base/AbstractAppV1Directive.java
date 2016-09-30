@@ -1,9 +1,5 @@
 package com.publiccms.common.base;
 
-import java.io.IOException;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.publiccms.common.base.app.AppV1;
 import com.publiccms.entities.sys.SysApp;
 import com.publiccms.entities.sys.SysAppToken;
@@ -14,6 +10,9 @@ import com.publiccms.logic.service.sys.SysAppTokenService;
 import com.publiccms.logic.service.sys.SysUserService;
 import com.publiccms.logic.service.sys.SysUserTokenService;
 import com.sanluan.common.handler.RenderHandler;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.IOException;
 
 /**
  * 
